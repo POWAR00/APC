@@ -1,0 +1,5 @@
+file = open("demo.bin", "wb+")
+file.write(b"Hello Binary")
+file.seek(0)
+print(file.read())
+file.close()

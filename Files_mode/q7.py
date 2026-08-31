@@ -1,0 +1,5 @@
+file = open("demo.txt", "a+")
+file.write("\nAppended data")
+file.seek(0)
+print(file.read())
+file.close()
